@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+
+	<!-- Set the viewport width to device width for mobile -->
+	<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    
+	<!-- Set meta informations -->
+	<title>Bistro: Register Template</title>
+	<meta name="description" content="The Bistro is a responsive ecommerce template for your next projects">
+	<meta name="author" content="">
+    
+	<!-- Style Files -->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,700,700italic,800" rel="stylesheet" type="text/css">  
+	<link rel="stylesheet" href="layerslider/css/layerslider.css" type="text/css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/media.css">
+	<link rel="stylesheet" href="css/flexslider.css">
+	<link rel="stylesheet" href="style.css">
+
+	<!--[if IE 7]>
+		<link rel="stylesheet" href="css/font-awesome-ie7.min.css">
+	<![endif]-->  
+
+	<!-- JS Files -->
+	<script>
+		document.documentElement.className = document.documentElement.className.replace(/(\s|^)no-js(\s|$)/, '$1js$2');
+	</script>
+    
+     <!--[if lt IE 9]>
+		<script src="js/html5shiv.min.js"></script>
+	<![endif]--> 
+
+    <!-- Switcher Only -->
+    <link rel="stylesheet" id="switcher-css" type="text/css" href="switcher/switcher.css" media="all" />
+	<link rel="alternate stylesheet" type="text/css" href="css/orange.css" title="orange" media="all" />
+	<link rel="alternate stylesheet" type="text/css" href="css/blue.css" title="blue" media="all" />
+	<link rel="alternate stylesheet" type="text/css" href="css/purple.css" title="purple" media="all" />
+	<link rel="alternate stylesheet" type="text/css" href="css/grey.css" title="grey" media="all" />
+	<link rel="alternate stylesheet" type="text/css" href="css/red.css" title="red" media="all" />
+	<link rel="alternate stylesheet" type="text/css" href="css/cyan.css" title="cyan" media="all" />
+	<link rel="alternate stylesheet" type="text/css" href="css/green.css" title="green" media="all" />
+	<link rel="alternate stylesheet" type="text/css" href="css/pink.css" title="pink" media="all" />
+    <!-- END Switcher Styles -->
+    
+</head>
+<body>
+
+	<!-- Start Top Bar -->
+    <div class="container tophead">
+    	<div class="left span3">
+        	<ul class="social">
+            	<li><a title="Like us on Facebook" data-placement="bottom" data-toggle="tooltip" href="http://facebook.com/webdesigntunes.com"><i class="icon-facebook"></i></a></li>
+            	<li><a title="Follow us on Twitter" data-placement="bottom" data-toggle="tooltip" href="http://twitter.com/webdesigntunes"><i class="icon-twitter"></i></a></li>
+            	<li><a title="Circle us on Google Plus" data-placement="bottom" data-toggle="tooltip" href="#"><i class="icon-google-plus"></i></a></li>
+            	<li><a title="Follow us on Linkedin" data-placement="bottom" data-toggle="tooltip" href="#"><i class="icon-linkedin"></i></a></li>
+            	<li><a title="Be friend on Xing" data-placement="bottom" data-toggle="tooltip" href="#"><i class="icon-xing"></i></a></li>
+            	<li><a title="Pin it on Pinterest" data-placement="bottom" data-toggle="tooltip" href="#"><i class="icon-pinterest"></i></a></li>
+            </ul>
+        </div>
+        <div class="right">
+                <div id="wdt-links">
+                    <ul>
+                        <li class="dropdown hover cart"><a href="#"><i class="icon-shopping-cart"></i> Your Cart <span class="label label-success font14">3 item(s)</span> - $171.50 <i class="icon-arrow-down"></i></a>
+                          <ul class="dropdown-menu topcart">
+                            <li>
+                              <table>
+                                <tbody>
+                                  <tr>
+                                    <td class="image"><a href="product.html"><img title="product" alt="product" src="demo-images/01_menu.jpg" height="50" width="50"></a></td>
+                                    <td class="name"><a href="product.html">Bag</a></td>
+                                    <td class="quantity">x&nbsp;3</td>
+                                    <td class="total">$143.50</td>
+                                    <td class="remove"><i class="icon-remove "></i></td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                              <table>
+                                <tbody>
+                                  <tr>
+                                    <td class="textright"><b>Sub-Total:</b></td>
+                                    <td class="textright">$143.00</td>
+                                  </tr>
+                                  <tr>
+                                    <td class="textright"><b>Eco Tax (-2.00):</b></td>
+                                    <td class="textright">$21.00</td>
+                                  </tr>
+                                  <tr>
+                                    <td class="textright"><b>VAT (17.5%):</b></td>
+                                    <td class="textright">$7.50</td>
+                                  </tr>
+                                  <tr>
+                                    <td class="textright"><b>Total:</b></td>
+                                    <td class="textright">$171.50</td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                              <div class="well pull-right">
+                                <a href="checkout.html" class="btn btn-general">Checkout</a>
+                              </div>
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="register"><a href="register.html" id="wdt-register">Register <i class="icon-user"></i></a></li>
+                        <li><a href="login.html">Login <i class="icon-unlock-alt"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+	<!-- END Top Bar -->
+
+    <!-- Start Header Bar -->
+    <div class="container header-wrap make-bg">
+		<div class="left brand">
+           <h1><a href="index.html">Bistro</a></h1>
+        </div>
+        <div class="right">
+        	<div class="searchbar span3">
+                <form class="form-search">
+              <input type="text" placeholder="Search 10.000+ items from 1000+ stores" data-provide="typeahead" data-items="4" data-source='["Alabama","Alaska","Arizona","Arkansas","California","Colorado","Connecticut","Delaware","Florida","Georgia","Hawaii","Idaho","Illinois","Indiana","Iowa","Kansas","Kentucky","Louisiana","Maine","Maryland","Massachusetts","Michigan","Minnesota","Mississippi","Missouri","Montana","Nebraska","Nevada","New Hampshire","New Jersey","New Mexico","New York","North Dakota","North Carolina","Ohio","Oklahoma","Oregon","Pennsylvania","Rhode Island","South Carolina","South Dakota","Tennessee","Texas","Utah","Vermont","Virginia","Washington","West Virginia","Wisconsin","Wyoming"]'>
+                </form>
+		    </div>
+		</div>
+	</div>
+        
+    <div class="container make-bg">
+	<div class="navbar">
+		<div class="container">
+			<div class="navbar-inner">
+                <button class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+		<div class="nav-collapse collapse">
+			<ul class="nav pull-left">
+				<li class="active"><a href="index.html">Home</a></li>
+				<li class="dropdown dropdown-hover">
+                  <a class="dropdown-toggle" href="#" data-toggle="dropdown">Categories <span class="caret"></span></a>
+                      <div class="dropdown-menu span4">
+                        <div class="row">
+                          <div class="span2">
+                            <ul class="mega-menu-links">
+                              <li><a href="category-list.html">Woman</a></li>
+                              <li><a href="category-list.html">Shoes</a></li>
+                              <li><a href="category-list.html">Bags</a></li>
+                              <li><a href="category-list.html">Accessories</a></li>
+                              <li><a href="category-list.html">Jewellery</a></li>
+                            </ul>
+                          </div>
+                          <div class="span2">
+                            <ul class="mega-menu-links">
+                              <li><a href="category-list.html">Man</a></li>
+                              <li><a href="category-list.html">Kids</a></li>
+                              <li><a href="category-list.html">Wedding Apparel</a></li>
+                              <li><a href="category-list.html">Cosplay</a></li>
+                              <li><a href="category-list.html">Fur <span class="label label-success">(hot)</span></a></li>
+                            </ul>
+                          </div>
+					   </div>
+					</div>
+                </li>
+				<li class="dropdown dropdown-hover">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">THE DEAL <span class="caret"></span></a>
+                        <div class="dropdown-menu span8">
+                          <ul class="thumbnails">
+                            <li class="span2">
+                                <div class="wdt-product">
+                                    <div class="wdt-products-wrapper">
+                                        <div class="wdt-product active show">
+                                            <a href="product.html" title="Pure Color Leisure">
+                                                <img src="demo-images/04_menu.jpg" alt="Pure Color Leisure" />
+                                            </a>
+                                            <h4><a href="product.html" title="Pure Color Leisure">Pure Color Leisure</a></h4>
+                                            <ul class="rating">
+                                                <li><i class="star-on"></i></li>
+                                                <li><i class="star-on"></i></li>
+                                                <li><i class="star-on"></i></li>
+                                                <li><i class="star-on"></i></li>
+                                                <li><i class="star-off"></i></li>
+                                            </ul>
+                                                <div class="wdt-pricing">
+                                                    <a href="product.html" title="#"><span class="amount">&euro;7.11</span></a>
+                                                </div>
+											<div class="wdt-cart">
+												<div class="wdt-cart-bar">
+													<a href="product.html" title="Pure Color Leisure"><i class="icon-shopping-cart"></i> Add to basket</a>
+												</div>
+											</div>
+											<div class="wdt-overlay">
+												<a href="product.html" title="#"><span class="amount">&euro;7.11</span></a>
+											</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="span2">
+                                <div class="wdt-product">
+                                    <div class="wdt-products-wrapper">
+                                        <div class="wdt-product active show">
+                                            <a href="product.html" title="Cool Bag">
+                                                <img src="demo-images/01_menu.jpg" alt="Cool Bag" />
+                                            </a>
+                                            <h4><a href="product.html" title="Title Here">Cool Bag</a></h4>
+                                            <ul class="rating">
+                                                <li><i class="star-on"></i></li>
+                                                <li><i class="star-on"></i></li>
+                                                <li><i class="star-on"></i></li>
+                                                <li><i class="star-on"></i></li>
+                                                <li><i class="star-on"></i></li>
+                                            </ul>
+                                                <div class="wdt-pricing">
+                                                    <span class="amount">&euro;21.00</span>
+                                                </div>
+											<div class="wdt-cart">
+												<div class="wdt-cart-bar">
+													<a href="product.html" title="Title Here"><i class="icon-shopping-cart"></i> Add to basket</a>
+												</div>
+											</div>
+											<div class="wdt-overlay">
+												<a href="product.html" title="#"><span class="amount">&euro;21.00</span></a>
+											</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="span2">
+                                <div class="wdt-product">
+                                    <div class="wdt-products-wrapper">
+                                        <div class="wdt-product active show">
+                                            <a href="product.html" title="Cool Bag">
+                                                <img src="demo-images/02_menu.jpg" alt="Style Fish Mouth" />
+                                            </a>
+                                            <h4><a href="product.html" title="Style Fish Mouth">Style Fish Mouth</a></h4>
+                                            <ul class="rating">
+                                                <li><i class="star-on"></i></li>
+                                                <li><i class="star-on"></i></li>
+                                                <li><i class="star-on"></i></li>
+                                                <li><i class="star-off"></i></li>
+                                                <li><i class="star-off"></i></li>
+                                            </ul>
+                                                <div class="wdt-pricing">
+                                                    <span class="amount">&euro;12.00</span>
+                                                </div>
+											<div class="wdt-cart">
+												<div class="wdt-cart-bar">
+													<a href="product.html" title="Style Fish Mouth"><i class="icon-shopping-cart"></i> Add to basket</a>
+												</div>
+											</div>
+											<div class="wdt-overlay">
+												<a href="product.html" title="#"><span class="amount">&euro;12.00</span></a>
+											</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="span2">
+                                <div class="wdt-product">
+                                    <div class="wdt-products-wrapper">
+                                        <div class="wdt-product active show">
+                                            <a href="product.html" title="Pendant N359 Bronze">
+                                                <img src="demo-images/03_menu.jpg" alt="Pendant N359 Bronze" />
+                                            </a>
+                                            <h4><a href="product.html" title="Pendant N359 Bronze">Pendant N359 Bronze</a></h4>
+                                            <ul class="rating">
+                                                <li><i class="star-on"></i></li>
+                                                <li><i class="star-on"></i></li>
+                                                <li><i class="star-on"></i></li>
+                                                <li><i class="star-on"></i></li>
+                                                <li><i class="star-off"></i></li>
+                                            </ul>
+                                                <div class="wdt-pricing">
+                                                    <span class="amount">&euro;2.43</span>
+                                                </div>
+											<div class="wdt-cart">
+												<div class="wdt-cart-bar">
+													<a href="product.html" title="Pendant N359 Bronze"><i class="icon-shopping-cart"></i> Add to basket</a>
+												</div>
+											</div>
+											<div class="wdt-overlay">
+												<a href="product.html" title="#"><span class="amount">&euro;2.43</span></a>
+											</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                          </ul>
+                        </div><!-- .dropdown-menu -->
+                      </li>
+                       <li class="dropdown dropdown-hover">
+                          <a class="dropdown-toggle" href="#" data-toggle="dropdown">Features <span class="caret"></span></a>
+                          <div class="dropdown-menu span6">
+                            <div class="row">
+                              <div class="span2">
+                                <ul class="mega-menu-links">
+                              <li><a href="category-list.html">Category List</a></li>
+                              <li><a href="category-grid.html">Category Grid</a></li>
+                              <li><a href="category-sidebar.html">Category with Sidebar</a></li>
+                              <li><a href="category-fullwidth.html">Category Fullwidth</a></li>
+                              <li><a href="product-sidebar.html">Product Sidebar</a></li>
+                              <li><a href="product-fullwidth.html">Product Fullwidth</a></li>
+                                </ul>
+                              </div>
+                              <div class="span2">
+                                <ul class="mega-menu-links">
+                                  <li><a href="daily-deals.html">Daily Deals</a></li>
+                                  <li><a href="services.html">Services</a></li>
+                                  <li><a href="about.html">About Us</a></li>
+                                  <li><a href="faqs.html">FAQS</a></li>
+                                  <li><a href="login.html">Login Page</a></li>
+                                  <li><a href="register.html">Register Page</a></li>
+                                </ul>
+                              </div>
+                              <div class="span2">
+                                <ul class="mega-menu-links">
+                                  <li><a href="portfolio.html">Portfolio</a></li>
+                                  <li><a href="blog.html">Blog</a></li>
+                                  <li><a href="sitemap.html">Sitemap</a></li>
+                                  <li><a href="404.html">404 Page</a></li>
+                                  <li><a href="typography.html">Typography</a></li>
+                                  <li><a href="elements.html">Elements</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li><a href="shopping-cart.html">Shopping Cart</a></li>
+                        <li><a href="checkout.html">Checkout</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                      </ul>
+                        <ul class="nav pull-right">
+                      <li class="dropdown dropdown-hover">
+                          <a class="dropdown-toggle" href="#" data-toggle="dropdown">User CP <span class="caret"></span></a>
+                          <div class="dropdown-menu span4">
+                            <div class="row">
+                              <div class="span2">
+                                <p>Welcome back <strong>Guest!</strong></p>
+                                <p>If you need any help please contact us via <a href="#">ticket system</a> in your dashboard.</p>
+                              </div>
+                              <div class="span2">
+                                <ul class="mega-menu-links">
+                                  <li><a href="wishlist.html">Wishlist (2)</a></li>
+                                  <li><a href="account.html">My Account</a></li>
+                                  <li><a href="shopping-cart.html">Shopping Cart</a></li>
+                                  <li><a href="checkout.html">Checkout</a></li>
+                                  <li><a href="#">My Tickets</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                    </ul>
+                </div>
+			</div>
+		</div>
+	</div>
+</div>
+	<!-- END Header Bar -->
+
+	<!-- Start Site Container -->
+
+    <div class="container make-bg">
+    
+            <ul class="breadcrumb">
+                <li><a href="#">Home</a> <span class="divider">/</span></li>
+                <li><a href="#">Account</a> <span class="divider">/</span></li>
+                <li class="active">Register</li>
+            </ul>
+            
+    		<div class="row">
+            
+			<div class="span9 post">
+            	<div class="row-fluid">
+				<div class="span5">
+                    <h2 class="widget-title"><span>Have An Account?</span></h2>
+                    <div class="sidebar-line"><span></span></div>
+                    	<p>If you need any help please contact us via <a href="#">ticket system</a> in your dashboard.</p>
+                        <form class="signin-form">
+                          <input class="input-block-level" type="text" placeholder="Enter your email address" id="inputEmail" />
+                          <input class="input-block-level" placeholder="Enter your password" type="password" id="inputPassword" />
+							<label for="inputPassword">
+                            <a href="#">Forgot?</a>
+                          </label>
+                          <label class="checkbox"><input type="checkbox" /> Remember me</label>
+                          <button class="btn btn-medium btn-general input-block-level" type="submit">Sign in your account</button>
+                        </form>
+					</div>
+					<div class="span7">
+                    <h2 class="widget-title"><span>Register An Account</span></h2>
+                    <div class="sidebar-line"><span></span></div>
+                        <form class="register-form">
+                          <label for="inputEmail"><span class="required">*</span> Your Personal Details</label>
+                          <input class="input-block-level" type="text" placeholder="* Enter your first name" id="inputname" />
+                          <input class="input-block-level" placeholder="* Enter your last name" type="text" id="inputlastname" />
+                          <input class="input-block-level" placeholder="* Enter your email address" type="text" id="inputemail" />
+                          <input class="input-block-level" placeholder="Enter your phone number" type="text" id="inputphone" />
+                          <label for="inputEmail"><span class="required">*</span> Shipping Address Details</label>
+                          <input class="input-block-level" type="text" placeholder="* Enter your address #1" id="inputaddress" />
+                          <input class="input-block-level" placeholder="Enter your address #2" type="text" id="inputaddress1" />
+                          <input class="input-block-level" placeholder="* Enter your city" type="text" id="inputcity" />
+                          <input class="input-block-level" placeholder="* Enter your post code" type="text" id="inputcode" />
+                             <label for="inputEmail"><span class="required">*</span> Country / Region / State</label>
+                             <select class="span5">
+                            <option>--- Select Country ---</option>
+                            <option>Country #1</option>
+                            <option>Country #2</option>
+                            <option>Country #3</option>
+                            <option>Country #4</option>
+                            <option>Country #5</option>
+                            <option>Country #6</option>
+                            <option>Country #7</option>
+                            <option>Country #8</option>
+                            <option>Country #9</option>
+                            <option>Country #10</option>
+                            </select>
+                            
+                             <select class="span5">
+                            <option>--- Select Region ---</option>
+                            <option>Region #1</option>
+                            <option>Region #2</option>
+                            <option>Region #3</option>
+                            <option>Region #4</option>
+                            <option>Region #5</option>
+                            <option>Region #6</option>
+                            <option>Region #7</option>
+                            <option>Region #8</option>
+                            <option>Region #9</option>
+                            <option>Region #10</option>
+                            </select>
+                             <label for="inputEmail"><span class="required">*</span> Choose Password</label>
+                          <input class="input-block-level" placeholder="* Enter your password" type="text" id="inputpassword" />
+                          <input class="input-block-level" placeholder="* Enter your password again" type="text" id="inputpassword" />
+							<label for="inputEmail"><span class="required"></span> Subscribe Email Newsletter</label>                          
+                            <label class="checkbox inline">
+                            <input type="checkbox" id="inlineCheckbox1" value="option1"> Yes
+                            </label>
+                            <label class="checkbox inline">
+                            <input type="checkbox" id="inlineCheckbox2" value="option2"> No
+                            </label>
+                              <button class="btn btn-medium btn-general input-block-level" type="submit">Register your account today!</button>
+                            <label class="checkbox inline">
+                            <input type="checkbox" id="inlineCheckbox1" value="option1"> <a href="#">I read and agree Privacy Policy</a>
+                            </label>
+                        </form>
+					</div>
+                </div>
+			</div>
+            
+			<div class="span3 sidebar">
+            	<div class="widget">
+				<h2 class="widget-title"><span>User Pages</span></h2>
+				<div class="sidebar-line"><span></span></div>
+					<ul class="nav nav-list bs-docs-sidenav">
+                         <li><a href="login.html">Login Page</a></li>
+						<li class="active"><a href="register.html">Register Page</a></li>
+                        <li><a href="wishlist.html">Wishlist</a></li>
+                        <li><a href="account.html">My Account</a></li>
+                        <li><a href="shopping-cart.html">Shopping Cart</a></li>
+                        <li><a href="checkout.html">Checkout</a></li>
+                        <li><a href="contact.html">My Tickets</a></li>
+				</ul>
+                </div>
+                
+            	<div class="widget">
+                    <h2 class="widget-title"><span>New Items</span></h2>
+                    <div class="sidebar-line"><span></span></div>
+                        <div class="for-womans flexslider flex-direction-nav-on-top">
+                            <ul class="slides">
+                                <li>
+                                    <div class="wdt-product">
+                                        <div class="wdt-products-wrapper">
+                                            <div class="wdt-product active show">
+                                            <a href="product.html" title="Super T-Shirt"><img src="demo-images/01_sidebar.jpg" alt="Cool Bag" /></a>
+                                            <h4><a href="product.html" title="Super T-Shirt">Awesome colors</a></h4>
+                                            <div class="wdt-pricing">
+                                            <span class="amount">&euro;31.22</span>
+                                            </div>
+                                            <div class="wdt-cart">
+                                            <div class="wdt-cart-bar">
+                                            <a href="product.html" title="Super T-Shirt"><i class="icon-shopping-cart"></i> Add to basket</a>
+                                            </div>
+                                            </div>
+                                            <div class="wdt-overlay">
+                                            <span class="amount">&euro;12.22</span>
+                                            </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="wdt-product">
+                                        <div class="wdt-products-wrapper">
+                                            <div class="wdt-product active show">
+                                            <a href="product.html" title="Super T-Shirt"><img src="demo-images/02_sidebar.jpg" alt="Cool Bag" /></a>
+                                            <h4><a href="product.html" title="Super T-Shirt">Super T-Shirt</a></h4>
+                                            <div class="wdt-pricing">
+                                            <span class="amount">&euro;11.33</span>
+                                            </div>
+                                            <div class="wdt-cart">
+                                            <div class="wdt-cart-bar">
+                                            <a href="product.html" title="Super T-Shirt"><i class="icon-shopping-cart"></i> Add to basket</a>
+                                            </div>
+                                            </div>
+                                            <div class="wdt-overlay">
+                                            <span class="amount">&euro;11.33</span>
+                                            </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="wdt-product">
+                                        <div class="wdt-products-wrapper">
+                                            <div class="wdt-product active show">
+                                            <a href="product.html" title="Super T-Shirt"><img src="demo-images/03_sidebar.jpg" alt="Cool Bag" /></a>
+                                            <h4><a href="product.html" title="Super T-Shirt">Cool Mini</a></h4>
+                                            <div class="wdt-pricing">
+                                            <span class="amount">&euro;55.05</span>
+                                            </div>
+                                            <div class="wdt-cart">
+                                            <div class="wdt-cart-bar">
+                                            <a href="product.html" title="Super T-Shirt"><i class="icon-shopping-cart"></i> Add to basket</a>
+                                            </div>
+                                            </div>
+                                            <div class="wdt-overlay">
+                                            <span class="amount">&euro;45.21</span>
+                                            </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                </div>
+			</div>
+		</div>
+  	</div>
+    
+	<!-- End Site Container -->
+    
+    <div class="container">
+	<!-- Start Footer -->
+		<footer class="footer-wrapper">
+			<div class="row">
+				<div class="span4">
+                    <h2 class="widget-title"><span>Why us?</span></h2>
+						<div class="sidebar-line"><span></span></div>
+                        	<p>Welcome to our awesome Bistro Store. If it is your first time visiting the site, feel free to visit our overview page.</p>
+							<p>More than 10000+ fashion products of clothing, shoes, jewelry, bags and others have been here and kept updating daily from 1000+ stores. No minimum order limit, retail and wholesale are both great!</p>
+				</div>
+                    
+				<div class="span4">
+					<h2 class="widget-title"><span>Recent Tweets</span></h2>
+						<div class="sidebar-line"><span></span></div>
+                            <ul id="twitter_update">
+                                <li>
+                                    <span class="content">
+                                    	Multi purpoase HTML5 template release today!
+                                    <a href="http://goo.gl/qroR2">http://goo.gl/qroR2</a>
+                                    </span>
+                                    </li>
+                                    <li>
+                                    <span class="content">
+                                    	Looking a special HTML5 CSS3 template for your works? Visit here
+                                    <a href="http://goo.gl/qroR2">http://goo.gl/qroR2</a>
+                                    </span>
+                                </li>
+                            </ul>
+				</div><!-- .span4 -->
+                    
+				<div class="span4">
+					<h2 class="widget-title"><span>Flickr</span></h2>
+                    	<div class="sidebar-line"><span></span></div>
+							<ul class="flickr"></ul>
+				</div>
+			</div><!-- .row -->
+            
+            <div class="row-fluid">
+            	<div class="span6">
+					<h2 class="widget-title"><span>CLIENTS</span></h2>
+                    	<div class="sidebar-line"><span></span></div>
+                    <div class="clients flexslider flex-direction-nav-on-top">
+                        <ul class="slides">
+                            <li>
+                            	<div class="span4">
+                                   	<img src="demo-images/01_client.png" alt="" />
+                                </div>
+                            	<div class="span4">
+                                   	<img src="demo-images/02_client.png" alt="" />
+                                </div>
+                            	<div class="span4">
+                                   	<img src="demo-images/03_client.png" alt="" />
+                                </div>
+                            </li>
+                            <li>
+                            	<div class="span4">
+                                   	<img src="demo-images/04_client.png" alt="" />
+                                </div>
+                            	<div class="span4">
+                                   	<img src="demo-images/05_client.png" alt="" />
+                                </div>
+                            	<div class="span4">
+                                   	<img src="demo-images/06_client.png" alt="" />
+                                </div>
+                            </li>
+                            <li>
+                            	<div class="span4">
+                                   	<img src="demo-images/07_client.png" alt="" />
+                                </div>
+                            	<div class="span4">
+                                   	<img src="demo-images/08_client.png" alt="" />
+                                </div>
+                            	<div class="span4">
+                                   	<img src="demo-images/01_client.png" alt="" />
+                                </div>
+							</li>
+                        </ul>
+					</div>
+				</div>
+            	<div class="span3">
+					<h2 class="widget-title"><span>GET IN TOUCH</span></h2>
+                    	<div class="sidebar-line"><span></span></div>
+                            <ul class="contact-details">
+                            <li><i class="icon-home"></i> Lorem ipsum dolar sit</li>
+                            <li><i class="icon-phone"></i> +1 (222) 133 0 444</li>
+                            <li><i class="icon-envelope-alt"></i> <a href="mailto:support@yoursite.com">support@yoursite.com</a></li>
+                            <li><i class="icon-envelope-alt"></i> <a href="mailto:info@yoursite.com">info@yoursite.com</a></li>
+                            <li><i class="icon-map-marker"></i> <a href="#">View on Google Maps</a></li>
+                            </ul>
+                </div>
+            	<div class="span3">
+					<h2 class="widget-title"><span>Live Chat</span></h2>
+                    	<div class="sidebar-line"><span></span></div>
+                	<div class="livechat">
+                    	<span class="icon-comments"></span>
+                        	<h2>NEED HELP?</h2>
+							<p>Sure! Just click here</p>
+                            <img src="images/footer-cards.html" alt="" />
+                	</div>
+                </div>
+            </div>
+		</footer>
+	<!-- End Footer -->
+    
+	<!-- Start Copyright -->
+	<div class="copyright">
+        <div class="footer-menu left">
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Bistro</a></li>
+                <li><a href="#">Sitemap</a></li>
+                <li><a href="#">Site Terms</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Support</a></li>
+            </ul>
+        </div>
+        
+        <div class="right">
+        	<p>© 2009 - 2013 <a href="index.html">BISTRO STORE</a>. All rights reserved.</p>
+
+        </div>
+	</div>
+	<!-- End Copyright -->
+<div class="wdttop">Scroll To Top</div>
+</div>
+
+    <!-- ADD Switcher -->
+            <div class="demo_changer">
+                <div class="demo-icon"></div>
+                <div class="form_holder">
+                    <div class="line"></div>
+                    <p>CHOOSE STYLE</p>
+                    <div class="predefined_styles">
+                        <div class="color_display_2" style="background-color:#EC644B"><a href="#" rel="orange" class="styleswitch">Orange</a></div>				
+                        <div class="color_display_2" style="background-color:#B03ABD"><a href="#" rel="purple" class="styleswitch">Purple</a></div>
+                        <div class="color_display_2" style="background-color:#EE0699"><a href="#" rel="pink" class="styleswitch">Pink</a></div>  
+                        <div class="color_display_2" style="background-color:#7CBC3A"><a href="#" rel="green" class="styleswitch">Green</a></div>  
+                        <div class="color_display_2" style="background-color:#336693"><a href="#" rel="blue" class="styleswitch">Blue</a></div> 
+                        <div class="color_display_2" style="background-color:#2997AB"><a href="#" rel="cyan" class="styleswitch">Cyan</a></div> 
+                        <div class="color_display_2" style="background-color:#BC3A3A"><a href="#" rel="red" class="styleswitch">Red</a></div>  
+                        <div class="color_display_2" style="background-color:#80807E"><a href="#" rel="grey" class="styleswitch">Grey</a></div>  
+                    </div>
+                    <div class="line"></div>
+                </div>
+            </div>
+    <!-- END Switcher -->
+    
+	<!-- JS Files -->
+	<script src="js/jquery.js" type="text/javascript"></script>
+	<script src="js/jquery-easing-1.3.js" type="text/javascript"></script>
+	<script src="js/jquery-transit-modified.js" type="text/javascript"></script>
+	<script src="layerslider/js/layerslider.transitions.js" type="text/javascript"></script>
+	<script src="layerslider/js/layerslider.kreaturamedia.jquery.js" type="text/javascript"></script> 
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.flexslider.min.js"></script>
+	<script src="js/countdown.js"></script>
+	<script src="js/jflickrfeed.min.js"></script>
+	<script src="js/custom.js"></script>
+
+	<!-- Flickr JS -->
+	<script>
+		$(document).ready(function() {
+		  $('.flickr').jflickrfeed({
+			limit: 8,
+			qstrings: {id: '52617155@N08'},
+			itemTemplate: '<li><a href="{{link}}"><img src="{{image_s}}" alt="{{title}}" /></a></li>'
+		  });
+		});
+	</script>
+  
+	<!-- Demo Switcher JS -->
+	<script type="text/javascript" src="switcher/switcher.js"></script>
+	<script type="text/javascript" src="switcher/switch.js"></script>
+</body>
+</html>
